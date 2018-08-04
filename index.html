@@ -2,16 +2,20 @@
 <html>
 <head>
   <title>About Me</title>
+  <script>
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
 </head>
 
 <body>
- <h2>Under Construction ;-)</h2>
 
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click</button>
+<h2>JavaScript in Head</h2>
 
-<p id="demo"></p>
+<p id="demo">A Paragraph.</p>
 
-  <body>
+<button type="button" onclick="myFunction()">Try it</button>
+
+</body>
 </html>
